@@ -3,7 +3,7 @@ function App(props) {
   return (
     <>
       <h1>Hello World</h1>
-      <h2>the time now is {currDate.toLocaleTimeString()}</h2>
+      <h2>today's date is {currDate.toLocaleDateString()} and time is {currDate.toLocaleTimeString()}</h2>
     </>
   );
 }
