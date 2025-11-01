@@ -40,13 +40,13 @@ class ContentRating extends Component {
               Like ({this.state.likes})
             </button>
             <button
-              className="dislike-button"
+              className="dislike-button "
               onClick={this.state.handleDislike}
             >
               Dislike ({this.state.dislikes})
             </button>
           </div>
-          <p>Total Ratings: {this.state.totalRatings}</p>
+          <p className="totalrating">Total Ratings: {this.state.totalRatings}</p>
         </div>
       </>
     );
